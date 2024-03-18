@@ -1,0 +1,86 @@
+#cloud {
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-image: url("images/cloudgate800.jpg");
+}
+
+#backg {
+  background-color: green;
+}
+
+#main {
+  width: 800px;
+  padding: auto;
+  margin: auto;
+  font-size: 18px;
+  font-family: Arial;
+}
+
+.first {
+  color: red;
+  background-color: #ffa052;
+  font-size: 25px;
+  font-style: italic;
+  font-family: 'Lucida Sans';
+  text-align: center;
+  text-overflow: 5px;
+  text-decoration: underline;
+}
+
+#ol_a {
+  color: red;
+  font-size: 25px;
+  font-style: italic;
+}
+
+#p2 {
+  color: #f75008;
+  font-size: 20px;
+  font-size: italic;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 1.3em;
+  color: #ff0059;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul.bstar {
+  list-style-type: circle;
+}
+
+table {
+  font-family: 'Times New Roman", Times, serif;
+ font-size: 10px;
+  border-collapse: collapse;
+}
+
+thead,
+tfoot {
+  background-color: orangered;
+  margin: 20 px;
+  padding: 30 px;
+}
+
+th,
+td {
+  border: 2px solid blueviolet;
+  margin: 20 px;
+  padding: 30 px;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: lightgray;
+  margin: 20 px;
+  padding: 30 px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: gray;
+  margin: 20 px;
+  padding: 30 px;
+}
